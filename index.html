@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مختبر تسجيل الدخول</title>
+<style>
+body {
+  background: #101827;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.box {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  width: 290px;
+  text-align: center;
+}
+input, button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 13px;
+  margin: 9px 0;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+.notice {
+  color: #facc15;
+  font-size: 13px;
+}
+#result {
+  color: #86efac;
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <h2>مختبر تسجيل الدخول</h2>
+  <p class="notice">صفحة تدريبية فقط — لا تدخل بياناتك الحقيقية</p>
+
+  <form id="demoForm">
+    <input type="email" placeholder="بريد تجريبي" required>
+    <input type="password" pl
